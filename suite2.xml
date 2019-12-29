@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="swa" parallel="classes">
+<test name="Report1" parallel="classes" >
+<classes>
+<class name="dec26.TestCaseDemo"/>
+</classes>
+</test> <!-- -Report1 -->
+<test name="Report2" parallel="classes" >
+<classes>
+<class name="dec27.com.Testcase_Demo"/>
+</classes>
+</test> <!-- -Report2 -->
+</suite>
